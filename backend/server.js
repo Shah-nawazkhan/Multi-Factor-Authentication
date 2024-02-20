@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 // Connect to MongoDB with connection pooling
-mongoose.connect('mongodb+srv://shahnawazkhan:Dubai123$@cluster0.j4w0ink.mongodb.net/', {
+mongoose.connect('YOUR MONGODB URL', { // YOUR MONGODB URL
     useNewUrlParser: true,
     useUnifiedTopology: true,
     // poolSize: 10,
